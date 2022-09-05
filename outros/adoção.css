@@ -1,0 +1,109 @@
+body{
+    
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+*header{
+    background-image: url(./imagem/pet fundo.jpg)
+}
+
+header{
+ display: flex;
+ background-color:#E64F75;
+ padding: 100px;
+    
+}
+
+h2{
+    color:#black;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    padding: 20;
+    margin: 20;
+}
+
+h5{
+    Color: #black;
+    text-align: center;
+    font-family:'Roboto Slab', serif;
+}
+
+nav{
+    text-align: right;
+    margin-top: 40px;
+
+}
+
+.link{
+    text-decoration: none;
+    color: black; 
+    padding: 10px;
+    font-size: 20px;
+}
+.cont-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 150px;
+    gap: 30px;
+}
+
+.link{
+    width: 50px;
+    border-radius: 0px;
+    justify-content: end;
+    
+}
+
+.foto{
+    width: 180px;
+    border-radius: 200px;
+}
+
+.cont-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+li{
+    background-color: antiquewhite;
+    padding: 10px 10px;
+    border-radius: 15px;
+
+}
+
+li:hover {
+   padding: 20px 40px; 
+}
+
+.footer{
+    background-color: antiquewhite;
+    margin-top: 200px;
+    padding: 10px 0px;
+    
+}
+
+.footer{
+    color: black;
+    text-align: center;
+    font-family:'Roboto Slab', serif;
+    
+}
